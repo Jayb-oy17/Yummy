@@ -87,9 +87,12 @@
   }
 }
 @media (max-width: 650px) {
-  .testimony {
-    height: 55vh;
+   .testimony {
+    height: 70vh;
   }
+ .slider-wrapper{
+  height: 50vh;
+ }
 }
 @media (max-width: 500px) {
   .about-card,
@@ -97,9 +100,6 @@
   .team-box,
   .foot-info-box {
     grid-template-columns: 1fr;
-  }
-  .slider-wrapper {
-    height: 70vh;
   }
   .slides {
     flex-direction: column-reverse;
@@ -111,19 +111,9 @@
     grid-template-columns: 1fr;
     gap: 1rem;
   }
-  .testimony {
-    height: 65vh;
-  }
 }
-@media (max-width: 399px) {
-  .testimony {
-    height: 70vh;
-  }
-}
+
 @media (max-width: 350px) {
-  .testimony {
-    height: 80vh;
-  }
   .padd-10{
     padding: 2rem 1rem;
   }
