@@ -34,12 +34,12 @@
     justify-content: center;
     position: absolute;
     top: 10rem;
-    right: 5rem;
+    right: 0rem;
     background-color: black;
     padding: 2rem;
-    border-radius: 2rem;
+    border-radius: 1rem;
     width: 20rem;
-    color: white;
+    transition: .5s;
   }
   .sticky .close {
     display: block;
@@ -123,5 +123,8 @@
 @media (max-width: 350px) {
   .testimony {
     height: 80vh;
+  }
+  .padd-10{
+    padding: 2rem 1rem;
   }
 }
